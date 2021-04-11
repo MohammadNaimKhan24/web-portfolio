@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-highlight {
+    color: #F2A537 ;
+}
+
+/* header items */
+h1 {
+    font-size: 50px;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(0, 140, 255);
+}
+
+h3 {
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+.showcase {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.showcase-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.showcase-content p {
+    font-size: 14px;
+    color: #777;
+}
+
+.showcase-content img {
+    width: 100%;
+    height: 500px;
+    margin-top: -220px;
+}
+
+/* intro items */
+.intro {
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.intro h3 {
+    width: 800px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 150px;
+}
+
+.intro-topic {
+    width: 40%;
+    float: left;
+}
+
+.intro-topic img {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.intro-topic p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* experience area */
+.experience {
+    margin-top: 200px;
+}
+
+.web-dev {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    height: 260px;
+}
+
+.web-dev h1 {
+    font-size: 24px;
+    padding-left: 3%;
+}
+
+.web-dev h3 {
+    font-size: 16px;
+    
+}
+
+.web-dev p {
+    font-size: 14px;
+    margin-top: 5px;
+    padding-left: 4%;
+    margin-top: 40px;
+    
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#front-end {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* footer area */
+.footer-area p {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* responsive web design for mobile or other devices */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 20px;
+        padding-left: 60px;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .showcase-content {
+        flex-direction: column;
+    }
+    .showcase-content img {
+        height: 200px;
+        margin-top: 30px;
+    }
+    .showcase-content p {
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    .intro-topic {
+      width: 100%;
+    }
+    .intro-topic img {
+        height: 200px;
+        width: 100%;
+        display: block;
+    }
+    .intro-topic p {
+        font-size: 8px;
+        margin-top: 10px;
+        display: block;
+    }
+    .intro-topic h3 {
+        margin-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .web-dev {
+        display: block;
+        width: 80%;
+        
+        
+    }
+    .web-dev h1 {
+        font-size: 20px;
+    }
+    .web-dev h3 {
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .web-dev p {
+        font-size: 8px;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    .experience {
+        margin-top: 20px;
+    }
+    .footer-area p {
+        font-size: 8px;
+    }
+
+}
+
+
